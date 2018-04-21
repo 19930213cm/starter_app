@@ -1,0 +1,32 @@
+{
+  "name": "aubi",
+  "version": "1.0.0",
+  "description": "A betting calculator",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 index.js -o index.bundle.js",
+    "lint": "eslint ./",
+    "start": "node index.bundle.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/19930213cm/starter_app.git"
+  },
+  "author": "chris m",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/19930213cm/starter_app/issues"
+  },
+  "homepage": "https://github.com/19930213cm/starter_app#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "rimraf": "^2.6.1"
+  }
+}
